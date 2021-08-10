@@ -20,6 +20,7 @@ public class CustomerController {
 	}
 	@GetMapping("/customers")
 	public List<Customer> getCustomer() {
+		System.out.println("hello Customer");
 		return Arrays.asList(new Customer(100, "rajesh"),new Customer(101, "vijay"));
 	}
 }
