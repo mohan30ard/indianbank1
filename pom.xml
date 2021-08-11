@@ -36,7 +36,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>sbiCiapp</finalName>
+	<finalName>sbiciapp</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
